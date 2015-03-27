@@ -1,0 +1,37 @@
+
+body{
+	background-color: rgba(0,0,0,0.50);
+}
+
+.slider{
+  overflow: hidden;
+  height: 320px;
+}
+
+.S_panel {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+.panel-active{
+	display: block;
+}
+
+.S_alement{
+  background-color: white;
+  border: 1px solid;
+  height: 159px;
+}
+
+/*
+* Big Imagen
+*/
+
+.container-fluid.estatic {
+  position: fixed;
+  padding: 10% 15%;
+  z-index: 1;
+  display: none;
+}
